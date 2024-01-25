@@ -1,0 +1,205 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+#nav-background {
+    background-image: linear-gradient(150deg, rgba(126,213,111,0.8), rgba(40,180,133,0.8)),url(../img/hero.jpg);    
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    height: 100vh;
+    padding: 50px;
+}
+
+#nav-background .nav-bar {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#nav-background .img-logo {
+    height: 50px;
+    width: 100px;
+    object-fit: cover;
+}
+
+#nav-background .navbar-link-bg {
+    background-color: #fff;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+#nav-background .nav-content {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+#nav-background .nav-content h1 {
+    font-size: 3.8rem; 
+    font-weight: 400; 
+    letter-spacing: 1rem;
+}
+
+#nav-background .nav-content h2 {
+    font-size: 20px; 
+    font-weight: 500; 
+    letter-spacing: 0.6rem; 
+    margin-top: 1rem;
+}
+
+.btn {
+    width: 12rem;
+    padding: 13px 0px 13px 0px;
+    border: none;
+    border-radius: 50px;
+}
+
+#adventure, #popular {
+    height: 100vh;
+    padding: 80px 100px;
+}
+
+#adventure .ad-h3, .popular-heading {
+    text-align: center; 
+    padding-bottom: 6rem;
+}
+
+#adventure h3, #popular h3 {
+    background-image: linear-gradient(20deg, #93e185, #28b485);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 1.5rem;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+#adventure .ad-content {
+    width: 50%; 
+    padding: 2rem 6rem 0rem 0rem; 
+    color: #827777;
+}
+
+#adventure h4 {
+    padding-bottom: 1rem;
+}
+
+#adventure p {
+    line-height: 1.7;
+}
+
+#adventure a {
+    color: #28b485; 
+    text-decoration: none; 
+    border-bottom: 1px solid #55c57a; 
+    padding-bottom: 6px;
+}
+
+#adventure .ad-img {
+    width: 50%; 
+    height: 38vh; 
+    position: relative;
+}
+
+#adventure img {
+    position: absolute;
+    box-shadow: 0 2.5rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+#explore {
+    background-image: linear-gradient(to right bottom, rgba(126,213,111,0.8), rgba(40,180,133,0.8)), url(../img/nat-4.jpg);
+    background-size: cover;
+    transform: skewY(-7deg);
+    min-height: 100vh;
+    padding: 100px 100px;
+}
+
+#explore .explore-container {
+    padding-top: 5rem; 
+    padding-bottom: 5rem;
+}
+
+#explore .card {
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 1.5rem;
+    padding: 2rem;
+    text-align: center;
+    width: 18%;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 10rem rgba(0, 0, 0, 0.15);
+    border: none;
+}
+
+#explore .card h5 {
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+#explore .card p {
+    font-size: 20px;
+}
+
+#explore .card h5, p {
+    color: rgb(85, 81, 81);
+}
+
+#popular .popular-heading {
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+}
+
+#popular .flex {
+    padding-bottom: 5rem;
+}
+
+#popular .card {
+    background-color: #fff;
+    box-shadow:  0 1.5rem 10rem rgba(0, 0, 0, 0.15);
+}
+
+#popular .img-1 {
+    background-image: linear-gradient(to right bottom, #ffbb00, #ff7830), url(../img/nat-5.jpg);
+    background-repeat: no-repeat; 
+    clip-path: polygon(0 0, 100% 0, 100% 30vh, 0 100%);
+    background-blend-mode: color;
+    background-position: center;
+    background-size: cover;
+    height: 37vh;
+    position: relative;
+}
+
+#popular .sea-paragraph {
+    background: linear-gradient(to right bottom, rgba(255,185,0,0.85), rgba(255,119,48,0.85));
+    padding: 7px 5px ;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    color: #fff;
+    font-weight: lighter;
+    text-align: center;
+    width: 60%;
+}
+
+#popular .content-div {
+    text-align: center;
+    padding: 2.5rem 4.5rem 2rem 4.5rem;
+}
+
+#popular .content-div p {
+    line-height: 3.0;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+#popular .hover-polygon {
+    background: blue;
+    height: 50vh;
+}
